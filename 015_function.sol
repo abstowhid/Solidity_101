@@ -1,5 +1,9 @@
-//get & set
+//fucntion totally depends on (view pure , ,)(public private external internal)(input and return)
+//get & set [primary]
 //combined (most in real use cases)
+//set function set or change a value of state variable
+//get function return something(a variable or anything i want)
+//combined at a time take input(set) and do calculation and return(get) something
 
 
 // SPDX-License-Identifier: MIT
@@ -36,3 +40,4 @@ contract FunctionExample {
         owner = newOwner;
     }
 }
+
