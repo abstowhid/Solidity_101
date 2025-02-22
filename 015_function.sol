@@ -1,6 +1,6 @@
 //fucntion totally depends on (view pure , ,)(public private external internal)(input and return)
 //get & set [primary]
-//combined (most in real use cases)
+//combined [most in real use cases]
 //set function set or change a value of state variable
 //get function return something(a variable or anything i want)
 //combined at a time take input(set) and do calculation and return(get) something
@@ -8,6 +8,25 @@
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
+
+contract ThisIsAContract{
+
+// function Fname(parameters_with_datatype) some_modifiers_based_on_purpose returns(data_type_of_return){code}
+//returns() sequence must match with the return inside the function
+
+uint public numbner;
+function set(uint _value) public {
+    numbner=_value;
+}
+function get() public view returns (uint){
+    return numbner;
+}
+
+}
+
+
+
+
 
 contract FunctionExample {
 
@@ -19,7 +38,7 @@ contract FunctionExample {
         owner = msg.sender; // Set deployer as the owner
     }
 
-    // 🔹 Simple function that returns a message
+    //get 🔹 Simple function that returns a message
     function sayHello() public pure returns (string memory) {
         return "Hello, Blockchain!";
     }
