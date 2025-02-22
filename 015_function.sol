@@ -6,6 +6,9 @@
 pragma solidity ^0.8.0;
 
 contract FunctionExample {
+
+
+    //some function examples
     address public owner;
 
     constructor() {
