@@ -1,35 +1,22 @@
+// conecting the contracts 
+//acces and edit same function=> virtual , override
+
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract ErrorHandlingDemo {
-    address public owner;
-    uint256 public balance;
-
-    constructor() {
-        owner = msg.sender;
-        balance = 100;
+uint public number=59087;
+    function whats() public  view virtual   returns (address){
+        return (msg.sender);
     }
 
-    // Using require to validate user input
-    function withdraw(uint256 amount) public {
-        require(msg.sender == owner, "Not the owner!"); // Ensuring only the owner can withdraw
-        require(amount <= balance, "Insufficient balance!"); // Checking sufficient funds
-
-        balance -= amount;
+}
+contract second is ErrorHandlingDemo{
+    function get() public view returns (uint){
+    return number; }
+    function whats() public   view override returns (address){
+        return (msg.sender);
     }
 
-    // Using revert for a manual error trigger
-    function transfer(uint256 amount) public {
-        if (amount > balance) {
-            revert("Not enough funds for transfer!");
-        }
-
-        balance -= amount;
-        // Simulating transfer logic
-    }
-
-    // Using assert to verify internal logic
-    function checkInvariant() public view {
-        assert(balance >= 0); // Ensuring balance never goes negative
-    }
 }
