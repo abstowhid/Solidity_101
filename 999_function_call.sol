@@ -1,13 +1,9 @@
 //function calling inside a function
+//1. we can assign new parameter value{inside ()} or 2. just call the funtion
 
-/*
-Using this for Function Calls:
-can call functions of the contract using this, but it creates an external call, consuming more gas.
-it is more expensive  gass fee to use and call function cz it's external
-*/
-//✅ Use case: When a contract interacts with itself like an external caller.
 
-// 1.Using this + Dot(.)
+
+// 1.Using this + Dot(.) => external =>visiable in another contract too
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -22,7 +18,7 @@ contract ThisFunctionExample {
     }
 }
 
-//1.1. also we can use parameter value inside () while calling in another function
+//2.(without this) => visiable only in this contract
 
 contract FunctionExample {
     uint public storedData;
@@ -44,3 +40,12 @@ contract FunctionExample {
 }
 
 
+
+/*
+Using this for Function Calls:
+can call functions of the contract using this, but it creates an external call, consuming more gas.
+it is more expensive  gass fee to use and call function cz it's external
+✅ Use case: When a contract interacts with itself like an external caller.
+*/
+
+// also we can use parameter value inside () while calling in another function{same as with this }
