@@ -6,7 +6,7 @@ In Solidity, this refers to the current smart contract instance. It is often use
 Expression  	    Type	             Description
 
 this	            address	        The address of the current contract.
-address(this)   	address	        Explicitly converts this into an address.
+address(this)   	address	        Explicitly converts this into an address.(the entire contract's addrees)
 
 */
 
