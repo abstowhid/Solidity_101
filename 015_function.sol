@@ -1,3 +1,4 @@
+//Basic functions only here
 //fucntion totally depends on (view pure , ,)(public private external internal)(input and return)
 //get & set [primary]
 //combined [most in real use cases]
