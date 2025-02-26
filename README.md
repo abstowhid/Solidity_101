@@ -8,7 +8,7 @@ This repository contains various Solidity contracts to help you understand diffe
    - Move the contract that needs to be executed first to the top (not ideal, but useful for simple code and learning purposes).
    - Ensure that the contracts are properly inherited for real code.
 
-2.**Possible Errors**: Some files may cause errors because certain elements may have been mixed up. However, individual topics are perfectly designed to understand, so any errors are just due to the mash-up.
+2.**Possible Errors**: Some files may cause errors because certain elements may have been mixed up. However, individual topics are perfectly designed to understand, so any errors are just due to the mash-up. If someone from you is interested to solve those by having individual topics still understandable. you're welcome. 
 
 ## Getting Started
 
