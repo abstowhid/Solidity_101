@@ -1,5 +1,6 @@
 /*
 In Solidity, this refers to the current smart contract instance. It is often used when you need the contract’s address within its own code.
+example: i have same variables name var1.(one as parameter) now if i want to use any of them here occur a conflict. by using var1.this extremely point to the var1 of the curent function 
 */
 
 /*
