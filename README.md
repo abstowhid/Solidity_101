@@ -16,7 +16,4 @@ To get started with Solidity 101:
 1. Clone the repository.
 2. Follow the instructions in each example file to understand the concepts.
 
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT
