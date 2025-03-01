@@ -28,5 +28,5 @@ function setB(uint _amountValue) public {
 //key will define everything
 //value will be returned via key reference
 
-//always naming the mapping depends on the  key(key type)
-//key type is the main input here; it is the reference;
+//most case: naming the mapping depends on the  valu( actuaally value defining what?the balance)
+//key type is the main input here; it is the reference;and value is the thing i want to store;
