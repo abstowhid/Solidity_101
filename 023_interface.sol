@@ -4,4 +4,4 @@
 
 //=======================  Why interface?  ==================
 // How many times i want i can use them in different contract 
-// 
+// benifits: i don't need to declare those function again and again( declare only once & use a lot)
