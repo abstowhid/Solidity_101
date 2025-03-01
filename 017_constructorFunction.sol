@@ -1,3 +1,4 @@
+//one and only owner who deploy the contract can call the constructor 
 // executes once only and at the begening of the combined
 // it defines or assign the initial and real fixed value for anything
 
