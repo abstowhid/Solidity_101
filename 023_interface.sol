@@ -1,4 +1,4 @@
-//connecting more contract  (with is modifier)// Interface is like a prototype or a Blue print 
+// Interface is like a prototype or a Blue print 
 //
 //interface just "Declare" function , don't call them
 
