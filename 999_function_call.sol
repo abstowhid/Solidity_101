@@ -1,5 +1,7 @@
 //function calling inside a function
-//1. we can assign new parameter value{inside ()} or 2. just call the funtion
+// 1. with this
+// 2. without this
+//note=> i. we can assign new parameter value{inside ()} or ii. just call the funtion
 
 
 

@@ -1,0 +1,1 @@
+//connecting more contract  (with is modifier)
