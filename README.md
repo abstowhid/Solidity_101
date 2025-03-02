@@ -1,6 +1,6 @@
 # Solidity 101
 
-This repository contains various Solidity contracts to help you understand different aspects of Solidity programming. Please note that some examples may use multiple contracts without linking(inherit)them. This is done intentionally to simplify the explanation of topics.And some may have some silly errors that can be solved easily.Show your skills
+This repository contains various Solidity contracts(topic wise)to help you understand different aspects of Solidity programming. Please note that some examples may use multiple contracts without linking(inherit)them. This is done intentionally to simplify the explanation of topics.And some may have some silly errors that can be solved easily.Show your skills
 
 ## Important Notes
 
