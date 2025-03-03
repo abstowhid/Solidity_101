@@ -1,3 +1,7 @@
+//1.interface define the blue print
+//2.contract implement the blue print(give functionality)
+//3.use like a object interect and finally do operation with it.
+//=====================================================================================
 // Interface is like a prototype or a Blue print 
 //interface just "Declare" function , don't call them
 // 1. declare 2.use different place(with inheritence or like a object)
@@ -23,10 +27,15 @@ interface IToken {
 //2. use like a object
 
 contract First is IToken {
-    //now override the function to avoid error
+    //now override the function to avoid error 
+    // here goes the functoinality
 }
 
 contract second {
-    IToken private fullToken;
-    //then use it
+    IToken public fullToken;  //a reference for a contract Note: must use constructor
+    //then use it & call function
 }
+
+//1.interface define the blue print
+//2.contract implement the blue print
+//3.use like a object interect and finally do operation with it.
