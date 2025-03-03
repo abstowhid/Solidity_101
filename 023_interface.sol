@@ -1,6 +1,6 @@
 //1.interface define the blue print
 //2.contract implement the blue print(give functionality)
-//3.use like a object interect and finally do operation with it.
+//3.another contract use it like a object interect and finally do operation with it.
 //=====================================================================================
 // Interface is like a prototype or a Blue print 
 //interface just "Declare" function , don't call them
