@@ -23,8 +23,8 @@ interface IToken {
 }
 
 //connect and use:
-//1. use inheritence
-//2. use like a object
+//1. use inheritence(full control to add functionality)
+//2. use like a object(just use them)
 
 contract First is IToken {
     //now override the function to avoid error 
