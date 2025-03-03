@@ -1,5 +1,6 @@
+// msg.sender indicated who call the  function(if different function call different people then every different function has a different msg.sender) that means who call the function is the msg.sender of the function.
 //msg.sender is who make the transaction of a function(each function can have different msg.sender{means the addres will make the transaction is the .sender})
-//using constructor we can define the owner of the contract who make the first transactions( deploy the contract)
+//using constructor we can define the owner of the contract who make the first transactions( deploy the contract) because only owner call the constructor function(as owner called it so the msg.sender is owner so that's it we found the owner)
 
 
 // SPDX-License-Identifier: MIT

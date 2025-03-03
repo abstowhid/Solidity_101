@@ -1,4 +1,5 @@
 //The msg object provides transaction-specific details like the sender's address, value sent, and function call data
+// msg.sender indicated who call the  function(if different function call different people then every different function has a different msg.sender) that means who call the function is the msg.sender of the function.
 // common properties of msg => 
 /*
 
