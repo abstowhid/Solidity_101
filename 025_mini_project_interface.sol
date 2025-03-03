@@ -28,6 +28,7 @@ contract Com{
         //It assigns token1 to an existing contract at ownAdd that follows the II interface.
         //so constructor say that ,now i can easily acces the functions by token1(every time i don't need to II(ownAdd)
     }
+//this constructor is the introduction/direction of the token1 here
     function gets(address add) external  view returns (uint){
 return token1.get(add);
     }
