@@ -1,4 +1,6 @@
-
+//declare
+//implement in a variable (as array,mapping,parameter)
+//set and get values like as same as array & mapping (just in place of value , use structName(values);
 
 
 // SPDX-License-Identifier: MIT
@@ -22,7 +24,7 @@ Task[] public allTask; //so,allTask is the array variable that store 'Task type 
 
 //example: get and set value in struct( for allTask array)
         function setAllTask(string memory _name, string memory _level,bool _completed) external   {
-            
+            //arr.push(Task(values)),
             allTask.push(Task(_name,_level,_completed));   // store one by one struct(Task) by index number & imagine the index number is the task number
         }
     function check(uint index) external   view returns(bool,string memory) {
