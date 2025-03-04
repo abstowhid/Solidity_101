@@ -58,5 +58,48 @@ function createTempTask() public pure returns (Task memory) {
 
 //============================================================      Advanched      ==================================================================================
 3️⃣ Structs in Nested Structs (Struct Inside Struct)
+contract Example {
+    struct SubTask {
+        string title;
+        bool done;
+    }
+
+    struct Task {
+        string name;
+        string level;
+        bool completed;
+        SubTask subtask; // Struct inside another struct
+    }
+
+    Task public myTask = Task("Main Task", "High", false, SubTask("Subtask 1", false));
+}
+
+4️⃣ Structs Inside Struct Arrays (Multiple Nested Structs)
+
+contract Example {
+    struct SubTask {
+        string title;
+        bool done;
+    }
+
+    struct Task {
+        string name;
+        string level;
+        bool completed;
+        SubTask[] subtasks; // Array of structs inside a struct
+    }
+
+    Task public myTask;
+
+    constructor() {
+        myTask.name = "Main Task";
+        myTask.level = "High";
+        myTask.completed = false;
+
+        myTask.subtasks.push(SubTask("Subtask 1", false));
+        myTask.subtasks.push(SubTask("Subtask 2", true));
+    }
+}
+
 
 
