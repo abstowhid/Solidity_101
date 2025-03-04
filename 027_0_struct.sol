@@ -22,13 +22,22 @@ Task[] public allTask; //so,allTask is the array variable that store 'Task type 
 //more ways in next file<<
 
 
-//example: get and set value in struct( for allTask array)
+//example: get and set value in struct( for  array)
         function setAllTask(string memory _name, string memory _level,bool _completed) external   {
-            //arr.push(Task(values)),
+            //arr.push(values);  =>values=> Task(values)
             allTask.push(Task(_name,_level,_completed));   // store one by one struct(Task) by index number & imagine the index number is the task number
         }
     function check(uint index) external   view returns(bool,string memory) {
         return (allTask[index].completed,allTask[index].name);
     }
+//example: get and set value in struct( for mapping)
+
+function setm(uint ind,string memory f,string memory g, bool d) public {
+//tasks[key]=values;  =>values=> Task(values)
+tasks[ind]=Task(f,g,d);
+}
+function getm(uint ind)public  view  returns (string memory,bool){
+    return (tasks[ind].name,tasks[ind].completed);
+}
 
 }
