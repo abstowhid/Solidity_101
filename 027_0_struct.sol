@@ -1,4 +1,4 @@
-A custom data type | here, Task is a data type not a variable |
+A custom data type | here,Task is a struct.so, Task is a data type not a variable | and later to declare variable we gonna use struct(as variable need a datatype)
 use:
 1.as a state variable(as variable need a datatype and struct(here Task) is a datatype
 2.as a function parameter & or a functional variable
