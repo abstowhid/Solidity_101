@@ -1,6 +1,6 @@
 A custom data type | here, Task is a data type not a variable |
 use:
-1.as a state variable(as variable need a datatype and struct(her Task) is a datatype
+1.as a state variable(as variable need a datatype and struct(here Task) is a datatype
 2.as a function parameter & or a functional variable
 //======================================================================================================================
 
