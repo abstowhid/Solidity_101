@@ -3,7 +3,7 @@ use:
 1.as a state variable(as variable need a datatype and struct(here Task) is a datatype
 2.as a function parameter & or a functional variable
 //======================================================================================================================
-
+//declare Struct
 struct Task{
 string name;
 string level;
