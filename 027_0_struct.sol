@@ -12,10 +12,12 @@ string level;
 bool completed;
 }
 //1.usage as a state variable:
-Task public tsks;   //Task is the data type and tsks is variable that store Task type data(including all childs inside Task) (only one Task)
 Task[] public allTask; //so,allTask is the variable that store 'Task type data' . every index of array will have a new struct as i push value by index reference
-mapping (uint=>Task) tasks; //so, every key will have a single struct(Task here)
-mapping (uint=>Task[]) task; //so, each key will have multiple Task(each key will have an array and the array can have it's own index and indexwise more Task)
+//more ways :
+// Task public tsks;   //Task is the data type and tsks is variable that store Task type data(including all childs inside Task) (only one Task)
+// mapping (uint=>Task) tasks; //so, every key will have a single struct(Task here)
+// mapping (uint=>Task[]) task; //so, each key will have multiple Task(each key will have an array and the array can have it's own index and indexwise more Task)
+//more ways in next file<<
 
 
 //example: get and set value in struct( for allTask array)
