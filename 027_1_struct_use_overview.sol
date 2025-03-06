@@ -47,7 +47,7 @@ bool completed;
 🚀use : as functional variable
 1️⃣ AS FUNCTIONAL VARIABLE
 function createTempTask() public pure returns (Task memory) {
-        Task memory tempTask = Task("Learn Solidity", "High", false);
+        Task memory tempTask = Task("Learn Solidity", "High", false);  //create a new local copy with the values
         return tempTask; // Returns a temporary Task struct
     }
 
