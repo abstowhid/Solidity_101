@@ -1,0 +1,2 @@
+//state variable
+//function variable
